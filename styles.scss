@@ -1,0 +1,134 @@
+#menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+  height: 105px;
+  transition: top 0.3s;
+}
+
+.logo{
+  height: 66px;
+  width: 132px;
+}
+
+.cont{
+    img{
+      width: 99px;
+      height: 54px;
+    }
+}
+
+body{
+  width: 100%;
+  background-image: linear-gradient(#272629, #474649, #0d0c0f);
+  background-color: #2f2e31 !important;
+}
+
+.paper{
+  background-color: #ffffff;
+  align-self: center;
+}
+
+.carousel{
+  margin-top: 200px;
+}
+
+.carousel-indicators li{
+  width: 60px !important;
+}
+
+.main-text{
+  font-size: 40px;
+}
+
+.container.col-10{
+  margin-top: 60px;
+}
+
+.myCard{
+  width: 256px;
+  background-color: #ffffff;
+  height: 350px;
+  margin: 23px 15px 8px 15px;
+}
+
+.allCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.informations{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+image{
+  width: 330px;
+}
+
+img{
+  width: 100%;
+}
+
+.price{
+  color: #999;
+  font-size: 15px;
+}
+
+.name{
+  font-size: 25px;
+}
+
+.myCard:hover{
+  box-shadow: #dbdbdb 0 0 8px 3px;
+}
+
+.myCard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myBtn1 button{
+  font-size: 17px;
+  padding: 10px 30px 10px 30px;
+  transition: all 500ms;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.myBtn1{
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+
+.button-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+
+}
+
+h5{
+  text-align: center;
+  padding: 5px;
+}
+h4{
+  padding: 30px;
+  text-align: center;
+}
+
